@@ -122,21 +122,22 @@ const MainPage = () => {
                                 </div>
                                 <div className="education-card">
                                     <div className="education-icon">🏫</div>
-                                    <h4>Secondary Education</h4>
-                                    <p className="school">Mbita Boys High School</p>
-                                    <p className="year">2017 - 2021</p>
+                                    <h4>Software Engineering Program</h4>
+                                    <p className="school">ALX Africa</p>
+                                    <p className="year">2022</p>
                                 </div>
                                 <div className="education-card">
                                     <div className="education-icon">📚</div>
-                                    <h4>Primary Education</h4>
-                                    <p className="school">St. Anne's Academy</p>
-                                    <p className="year">2015 - 2016</p>
+                                    <h4>Software Development Program</h4>
+                                    <p className="school">LakeHub Academy</p>
+                                    <p className="year">2021</p>
                                 </div>
                                 <div className="education-card">
                                     <div className="education-icon">✏️</div>
-                                    <h4>Primary Education</h4>
-                                    <p className="school">Dol Kodera Primary School</p>
-                                    <p className="year">Until 2015</p>
+                                    <h4>Programming Certifications</h4>
+                                    <p className="school">OpenWeaver</p>
+                                    <p>Python, Web Development, Java</p>
+                                    <p className="year">2021</p>
                                 </div>
                             </div>
                         </div>
@@ -277,7 +278,7 @@ const MainPage = () => {
                         <p className="investment-note">💡 Open to discussing investment opportunities and sharing my innovative project ideas.</p>
                     </div>
                     <div className="contact-cards">
-                        <a className="contact-card phone" href="tel:+254746852485">
+                        <a className="contact-card phone" href="tel:+254779051785">
                             <div className="card-content">
                                 <FontAwesomeIcon icon={faPhone} className="contact-icon" />
                                 <h4>Phone</h4>
@@ -291,7 +292,7 @@ const MainPage = () => {
                                 <p>Write to Me</p>
                             </div>
                         </a>
-                        <a className="contact-card whatsapp" href="https://wa.me/254746852485" target="_blank" rel="noopener noreferrer">
+                        <a className="contact-card whatsapp" href="https://wa.me/254779051785" target="_blank" rel="noopener noreferrer">
                             <div className="card-content">
                                 <FontAwesomeIcon icon={faWhatsapp} className="contact-icon" />
                                 <h4>WhatsApp</h4>

@@ -215,7 +215,7 @@ const MainPage = () => {
                             </div>
                             <div className="project-image">
                                 <div className="image-placeholder">
-                                    <img src="/assets/tsphere.png" alt="TicketSphere" />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/tsphere.png`} alt="TicketSphere" />
                                 </div>
                             </div>
                         </div>
@@ -237,7 +237,7 @@ const MainPage = () => {
                             </div>
                             <div className="project-image">
                                 <div className="image-placeholder">
-                                    <img src="/assets/hustler.png" alt="Hustlerati" />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/hustler.png`} alt="Hustlerati" />
                                 </div>
                             </div>
                         </div>
@@ -259,7 +259,7 @@ const MainPage = () => {
                             </div>
                             <div className="project-image">
                                 <div className="image-placeholder">
-                                    <img src="/assets/pema.png" alt="Pema-Kenya" />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/pema.png`} alt="Pema-Kenya" />
                                 </div>
                             </div>
                         </div>

@@ -4,21 +4,21 @@ import '../../css/home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { 
-    faReact, 
-    faJs, 
-    faPython, 
-    faNode, 
-    faHtml5, 
-    faCss3Alt, 
-    faGithub, 
+import {
+    faReact,
+    faJs,
+    faPython,
+    faNode,
+    faHtml5,
+    faCss3Alt,
+    faGithub,
     faDocker,
     faFigma,
     faAws
 } from '@fortawesome/free-brands-svg-icons';
-import { 
-    faDatabase, 
-    faServer, 
+import {
+    faDatabase,
+    faServer,
     faPalette,
     faCode,
     faMobile,
@@ -64,11 +64,13 @@ const MainPage = () => {
                 <h2 className="glowing-title">About Me</h2>
                 <div className="about-container">
                     <div className="about-text">
-                        <p>Hello! I'm Louis Otieno, a passionate Full Stack Developer and UI/UX Designer based in Kenya. 
-                        I specialize in creating efficient, scalable, and visually stunning web applications 
-                        that solve real-world problems. With an eye for design and strong technical skills, 
-                        I bridge the gap between beautiful interfaces and robust functionality.</p>
-                        
+                        <p>
+                            Hello! I'm Louis Otieno, a passionate Full Stack Developer, UI/UX Designer, and Data Analyst based in Kenya.
+                            I specialize in building efficient, scalable, and visually engaging web applications, while also leveraging data analysis
+                            to uncover insights that drive better decisions. With strong backend expertise and an eye for design,
+                            I bridge the gap between beautiful user experiences, robust functionality, and data-driven solutions.
+                        </p>
+
                         <div className="tech-stack">
                             <h3>Tech Stack</h3>
                             <div className="tech-categories">
@@ -163,8 +165,8 @@ const MainPage = () => {
                             <FontAwesomeIcon icon={faPalette} />
                         </div>
                         <h3>Web Design</h3>
-                        <p>Creating stunning, user-centric website designs that capture your brand's essence. 
-                        Specializing in responsive layouts, modern UI/UX, and engaging user experiences.</p>
+                        <p>Creating stunning, user-centric website designs that capture your brand's essence.
+                            Specializing in responsive layouts, modern UI/UX, and engaging user experiences.</p>
                     </div>
 
                     <div className="service-card">
@@ -172,8 +174,8 @@ const MainPage = () => {
                             <FontAwesomeIcon icon={faMobile} />
                         </div>
                         <h3>App Design</h3>
-                        <p>Crafting intuitive mobile app interfaces with a focus on user experience. 
-                        From wireframes to high-fidelity prototypes, ensuring your app looks and feels perfect.</p>
+                        <p>Crafting intuitive mobile app interfaces with a focus on user experience.
+                            From wireframes to high-fidelity prototypes, ensuring your app looks and feels perfect.</p>
                     </div>
 
                     <div className="service-card">
@@ -181,8 +183,8 @@ const MainPage = () => {
                             <FontAwesomeIcon icon={faCode} />
                         </div>
                         <h3>Web Development</h3>
-                        <p>Building robust, scalable websites and web applications using modern technologies. 
-                        Full-stack solutions that perform as good as they look.</p>
+                        <p>Building robust, scalable websites and web applications using modern technologies.
+                            Full-stack solutions that perform as good as they look.</p>
                     </div>
 
                     <div className="service-card">
@@ -190,22 +192,31 @@ const MainPage = () => {
                             <FontAwesomeIcon icon={faRobot} />
                         </div>
                         <h3>App Development</h3>
-                        <p>Developing cross-platform mobile applications that deliver seamless experiences. 
-                        From concept to deployment, bringing your app ideas to life.</p>
+                        <p>Developing cross-platform mobile applications that deliver seamless experiences.
+                            From concept to deployment, bringing your app ideas to life.</p>
+                    </div>
+
+                    <div className="service-card">
+                        <div className="service-icon">
+                            <FontAwesomeIcon icon={faDatabase} />
+                        </div>
+                        <h3>Data Analysis</h3>
+                        <p>Transforming raw data into actionable insights using Python, Pandas, SQL,
+                            and visualization tools like Tableau and Power BI to empower data-driven business decisions.</p>
                     </div>
                 </div>
             </section>
 
             <section id="Clients">
-                <h2 className="glowing-title">Client Projects</h2>
+                <h2 className="glowing-title">My completed Projects</h2>
                 <div className="timeline-container">
                     <div className="timeline-item">
                         <div className="timeline-content">
                             <div className="project-info">
                                 <h3>TicketSphere</h3>
                                 <span className="project-url">ticketsphere.agency</span>
-                                <p>Developing a comprehensive web application for event ticketing and management. 
-                                Creating seamless user experiences for event organizers and attendees.</p>
+                                <p>Developing a comprehensive web application for event ticketing and management.
+                                    Creating seamless user experiences for event organizers and attendees.</p>
                                 <div className="tech-tags">
                                     <span>React</span>
                                     <span>Node.js</span>
@@ -226,8 +237,8 @@ const MainPage = () => {
                             <div className="project-info">
                                 <h3>Hustlerati</h3>
                                 <span className="project-url">hustlerati.com</span>
-                                <p>Building an innovative platform connecting entrepreneurs and creating 
-                                a vibrant community for business networking and growth opportunities.</p>
+                                <p>Building an innovative platform connecting entrepreneurs and creating
+                                    a vibrant community for business networking and growth opportunities.</p>
                                 <div className="tech-tags">
                                     <span>React</span>
                                     <span>Django</span>
@@ -248,8 +259,8 @@ const MainPage = () => {
                             <div className="project-info">
                                 <h3>Pema-Kenya</h3>
                                 <span className="project-url">pemakenya.org</span>
-                                <p>Developing a web platform for environmental conservation and community engagement, 
-                                facilitating sustainable development initiatives in Kenya.</p>
+                                <p>Developing a web platform for environmental conservation and community engagement,
+                                    facilitating sustainable development initiatives in Kenya.</p>
                                 <div className="tech-tags">
                                     <span>React</span>
                                     <span>Node.js</span>
@@ -264,6 +275,50 @@ const MainPage = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className="timeline-item">
+                        <div className="timeline-content">
+                            <div className="project-info">
+                                <h3>Customer Analytics Dashboard</h3>
+                                <span className="project-url">https://github.com/louisotieno2001/customer-analytics</span>
+                                <p>Interactive dashboard analyzing customer behavior patterns and sales data for an e-commerce platform. 
+                                    Identified key insights leading to 25% increase in retention strategies.</p>
+                                <div className="tech-tags">
+                                    <span>Python</span>
+                                    <span>Pandas</span>
+                                    <span>Tableau</span>
+                                    <span>SQL</span>
+                                </div>
+                            </div>
+                            <div className="project-image">
+                                <div className="image-placeholder">
+                                    <img src={`${process.env.PUBLIC_URL}/assets/customer-analytics.png`} alt="Customer Analytics Dashboard" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="timeline-item">
+                        <div className="timeline-content">
+                            <div className="project-info">
+                                <h3>Market Trend Forecaster</h3>
+                                <span className="project-url">https://github.com/louisotieno2001/market-forecaster</span>
+                                <p>Predictive modeling tool for financial market trends using machine learning on historical stock data.
+                                    Achieved 85% accuracy in short-term forecasts.</p>
+                                <div className="tech-tags">
+                                    <span>Python</span>
+                                    <span>Scikit-learn</span>
+                                    <span>Matplotlib</span>
+                                    <span>Pandas</span>
+                                </div>
+                            </div>
+                            <div className="project-image">
+                                <div className="image-placeholder">
+                                    <img src={`${process.env.PUBLIC_URL}/assets/market-forecaster.png`} alt="Market Trend Forecaster" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -272,9 +327,9 @@ const MainPage = () => {
                 <div className="contact-content">
                     <div className="contact-text">
                         <h3>Let's Connect!</h3>
-                        <p>Ready to bring your ideas to life? I'm always open to discussing new opportunities, 
-                        whether you need development services, want to explore my innovative project ideas, 
-                        or are interested in investment partnerships. Let's turn vision into reality together!</p>
+                        <p>Ready to bring your ideas to life? I'm always open to discussing new opportunities,
+                            whether you need development services, want to explore my innovative project ideas,
+                            or are interested in investment partnerships. Let's turn vision into reality together!</p>
                         <p className="investment-note">💡 Open to discussing investment opportunities and sharing my innovative project ideas.</p>
                     </div>
                     <div className="contact-cards">
@@ -303,7 +358,7 @@ const MainPage = () => {
                 </div>
             </section>
 
-            <button 
+            <button
                 className={`back-to-top ${showButton ? 'visible' : ''}`}
                 onClick={scrollToTop}
                 aria-label="Back to top"

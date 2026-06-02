@@ -18,7 +18,6 @@ import {
     faPalette,
     faCode,
     faMobile,
-    faRobot,
     faHardHat,
     faShieldAlt,
     faChartLine,
